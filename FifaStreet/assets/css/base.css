@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "Blacklisted";
+    src: url('../webfonts/Blacklisted.ttf') format('truetype');
+}
+
+body{
+    background-color:rgb(210, 215, 221) !important;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+.container{
+    min-height:100% ;
+}
+
+.loginform{
+    width: auto;
+    height : auto;
+    margin : 1%;
+    padding : 25px 10px;
+}
+
+.test{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+.form-signin {
+    max-width: 400px;
+    margin: auto;
+}
+
+.btn-custom-color{
+    background-color: #1A2226;
+    color:#ffffff;
+}
+
+.btn-custom-color:hover{
+    background-color: #ffffff;
+    border: 1px solid #1A2226;
+    color:#1A2226;
+}
+
+.lf-navbar-desktop {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1340px;
+    width: 100%;
+}
+
+.change{
+    font-family: 'Blacklisted';
+    color: black ;
+}
+
+.change-title{
+    font-family: 'Blacklisted';
+    color: black ;
+    margin-bottom: 12% !important;
+}
+
+.profile-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.profile-info {
+    margin-top: 20px;
+}
+
+.profile-field {
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+span {
+    margin-left: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* couleur de fond du bouton */
+    color: #fff; /* couleur du texte du bouton */
+    text-decoration: none; /* supprimer le soulignement du lien */
+    border-radius: 5px; /* bord arrondi du bouton */
+    transition: background-color 0.3s; /* transition de couleur de fond lors du survol */
+}
+
+.button:hover {
+    background-color: #0056b3; /* couleur de fond du bouton lors du survol */
+}
+
+.carousel-item img {
+    height: 400px; /* Ajustez la hauteur selon vos besoins */
+    object-fit: cover;
+}
+
+.marge{
+    margin-top: 150px;
+}
